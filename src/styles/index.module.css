@@ -1,11 +1,9 @@
 /* upper one  */
-.commonStroke1{
-    color:transparent ;
-    -webkit-text-stroke: 1px #fff;
-    /* f8df6efc */
+.stroke1 {
+  -webkit-text-stroke: 1px #f14b4b;
+  /* f8df6efc */
 }
 /* second one  */
-.commonStroke2{
-    color:transparent ;
-    -webkit-text-stroke: 1px #fff;
+.stroke2 {
+  -webkit-text-stroke: 1px #fff;
 }
