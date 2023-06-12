@@ -12,7 +12,7 @@
     @apply px-4 uppercase inline-block relative before:absolute before:content-[''] before:right-full before:top-[45%] before:bg-black before:w-10 before:h-[1px] ml-14;
   }
   .common-outline {
-    @apply text-8xl md:text-[130px] lg:text-[180px] bottom-[-30px] lg:right-0 font-bold absolute text-center lg:text-end w-full lg:w-auto;
+    @apply text-8xl md:text-[130px] lg:text-[180px] bottom-[-30px] right-0 lg:right-0 font-bold absolute text-center lg:text-end w-full lg:w-auto;
 
     color: transparent;
   }

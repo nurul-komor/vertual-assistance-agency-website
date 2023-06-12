@@ -75,7 +75,7 @@ export default function Home() {
             </div>
           </div>
           <div className="basis-full lg:basis-[50%] w-full  flex items-center relative justify-center lg:justify-end  min-h-[80vh] p-4">
-            <div className="w-[55%] lg:w-[60%] min-h-[50vh] relative rounded-full before:absolute before:contents-[''] before:w-[110%] before:h-[110%] before:border-2 before:p-4 before:rounded-full before:left-[-5%] before:top-[-5%] before:border-gray-700">
+            <div className="w-full sm:w-[55%] lg:w-[60%] min-h-[50vh] relative rounded-full before:absolute before:contents-[''] before:w-[110%] before:h-[110%] before:border-2 before:p-4 before:rounded-full before:left-[-5%] before:top-[-5%] before:border-gray-700">
               <div className="w-full h-[70vh] ring-1 ring-white relative rounded-full overflow-hidden flex items-center justify-center ">
                 <Image
                   src={"/header-image.jpg"}
