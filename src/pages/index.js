@@ -73,8 +73,15 @@ export default function Home() {
             </div>
           </div>
           <div className="basis-full lg:basis-[50%] w-full  flex items-center relative justify-center lg:justify-end  min-h-[80vh] p-4">
-            <div className="w-[60%] h-auto flex items-center justify-center rounded-full p-6 border-2 grayscale border-slate-600 relative  ">
-              <div className="w-full h-[65vh] rounded-full border-2 border-white bg-[url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80')] relative before:absolute before:content-[''] before:w-full before:h-full before:left-0 before:top-0 before:bg-[red] before:grayscale-0 before:opacity-[0.5] z-5 overflow-hidden"></div>
+            <div className="w-[60%] h-auto flex items-center justify-center rounded-full p-6 border-2  border-slate-600 relative  ">
+              <div className="w-full h-[65vh] rounded-full border-2 border-white  relative before:absolute before:content-[''] before:w-full before:h-full before:left-0 before:top-0 before:bg-[red] before:grayscale-0 before:opacity-[0.5] z-5 overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+                  width={100}
+                  height={100}
+                  alt=""
+                />
+              </div>
             </div>
             <h1
               className={
