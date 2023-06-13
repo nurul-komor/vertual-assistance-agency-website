@@ -1,9 +1,121 @@
 /* upper one  */
 .stroke1 {
-  -webkit-text-stroke: 1px #f14b4b;
+  -webkit-text-stroke: 1px hsl(39, 100%, 50%);
   /* f8df6efc */
 }
 /* second one  */
 .stroke2 {
   -webkit-text-stroke: 1px #fff;
+}
+
+.starOrange::after {
+  clip-path: polygon(
+    47% 30%,
+    50% 0%,
+    53% 30%,
+    64% 2%,
+    58% 31%,
+    77% 8%,
+    63% 35%,
+    88% 16%,
+    67% 38%,
+    97% 28%,
+    69% 45%,
+    99% 43%,
+    71% 50%,
+    100% 57%,
+    71% 56%,
+    96% 70%,
+    67% 60%,
+    87% 83%,
+    64% 65%,
+    76% 91%,
+    59% 68%,
+    64% 96%,
+    53% 70%,
+    50% 99%,
+    48% 70%,
+    36% 98%,
+    42% 68%,
+    24% 92%,
+    37% 66%,
+    12% 83%,
+    33% 61%,
+    5% 71%,
+    31% 56%,
+    0% 57%,
+    30% 51%,
+    2% 42%,
+    30% 44%,
+    4% 29%,
+    33% 38%,
+    12% 17%,
+    37% 34%,
+    24% 8%,
+    42% 31%,
+    37% 2%,
+    47% 30%
+  );
+}
+
+.star2 {
+  clip-path: polygon(
+    50% 2.45%,
+    61.8% 38.77%,
+    100% 38.77%,
+    69.1% 61.23%,
+    80.9% 97.55%,
+    50% 75.1%,
+    19.1% 97.55%,
+    30.9% 61.23%,
+    0% 38.77%,
+    38.2% 38.77%
+  );
+}
+
+/* floating circle  */
+.floatingCircle {
+  animation: floatingCircle;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes floatingCircle {
+  /* right  */
+  0% {
+    transform: rotate(0deg) translate(173px);
+  }
+  /* bottom right  */
+  12% {
+    transform: rotate(45deg) translate(210px);
+  }
+  /* bottom  */
+  24% {
+    transform: rotate(90deg) translate(240px);
+  }
+  /* bottom  left  */
+  31% {
+    transform: rotate(135deg) translate(210px);
+  }
+  /* left  */
+  48% {
+    transform: rotate(180deg) translate(173px);
+  }
+  /* top left  */
+  61% {
+    transform: rotate(225deg) translate(210px);
+  }
+  /* top  */
+  72% {
+    transform: rotate(270deg) translate(240px);
+  }
+  /* top right  */
+  81% {
+    transform: rotate(315deg) translate(210px);
+  }
+  /*  right  */
+  100% {
+    transform: rotate(360deg) translate(173px);
+  }
 }
