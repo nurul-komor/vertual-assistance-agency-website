@@ -84,38 +84,47 @@
 @keyframes floatingCircle {
   /* right  */
   0% {
-    transform: rotate(0deg) translate(173px);
+    transform: rotate(0deg) translate(170px);
+    background: red;
   }
   /* bottom right  */
   12% {
-    transform: rotate(45deg) translate(210px);
+    transform: rotate(45deg) translate(216px);
+    background-color: #fff;
   }
   /* bottom  */
   24% {
-    transform: rotate(90deg) translate(240px);
+    transform: rotate(90deg) translate(260px);
+    background-color: #fff;
   }
   /* bottom  left  */
   31% {
-    transform: rotate(135deg) translate(210px);
+    transform: rotate(135deg) translate(216px);
+    background-color: #fff;
   }
   /* left  */
   48% {
-    transform: rotate(180deg) translate(173px);
+    transform: rotate(180deg) translate(170px);
+    background: red;
   }
   /* top left  */
   61% {
-    transform: rotate(225deg) translate(210px);
+    transform: rotate(225deg) translate(216px);
+    background-color: #fff;
   }
   /* top  */
   72% {
-    transform: rotate(270deg) translate(240px);
+    transform: rotate(270deg) translate(260px);
+    background-color: #fff;
   }
   /* top right  */
   81% {
-    transform: rotate(315deg) translate(210px);
+    transform: rotate(315deg) translate(216px);
+    background-color: #fff;
   }
   /*  right  */
   100% {
-    transform: rotate(360deg) translate(173px);
+    transform: rotate(360deg) translate(170px);
+    background: red;
   }
 }

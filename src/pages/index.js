@@ -61,6 +61,7 @@ export default function Home() {
                 width={200}
                 height={200}
                 className="absolute left-[80%] top-16 hidden lg:block "
+                alt=""
               />
             </h1>
             <p className="leading-8 lg:leading-[2.5]">
@@ -88,11 +89,11 @@ export default function Home() {
           <div className="basis-full lg:basis-[50%] w-full  flex items-center relative justify-center lg:justify-end  min-h-[80vh] p-6">
             <div
               className={
-                "w-full sm:w-[400px] md:w-[500px] lg:w-[300px] min-h-[50vh] relative rounded-full before:absolute before:contents-[''] before:w-[116%] before:h-[116%] before:border-2 before:p-4 before:rounded-full before:left-[-8%] before:top-[-8%] before:border-gray-700  after:hidden  lg:after:grid after:place-content-center  after:absolute after:left-[-15%] after:top-[-15%] after:bg-orange-300 after:p-16 after:text-sm   " +
+                "w-full sm:w-[400px] md:w-[500px] lg:w-[300px] min-h-[420px] relative rounded-full before:absolute before:contents-[''] before:w-[116%] before:h-[116%] before:border-2 before:p-4 before:rounded-full before:left-[-8%] before:top-[-8%] before:border-gray-700  after:hidden  lg:after:grid after:place-content-center  after:absolute after:left-[-15%] after:top-[-15%] after:bg-orange-300 after:p-16 after:text-sm   " +
                 `after:content-['${year}'] ${indexStyle.starOrange}`
               }
             >
-              <div className="w-full h-[65vh] ring-2 ring-white relative rounded-full overflow-hidden flex items-center justify-center ">
+              <div className="w-full h-[440px] ring-2 ring-white relative rounded-full overflow-hidden flex items-center justify-center ">
                 <Image
                   src={"/header-image.jpg"}
                   width={400}
@@ -118,6 +119,7 @@ export default function Home() {
             width={300}
             height={200}
             className=" hidden  lg:block absolute lg:right-[25%] scale-[0.8] xl:scale-1 top-[20%] xl:right-[30%]"
+            alt=""
           />
         </div>
       </section>
