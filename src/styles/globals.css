@@ -6,7 +6,7 @@
 
 @layer base {
   .bg-gradientCommon {
-    background: radial-gradient(#fad0c4, transparent);
+    background: radial-gradient(#fad0c494, transparent);
   }
   .common-before {
     @apply px-4 uppercase inline-block relative before:absolute before:content-[''] before:right-full before:top-[45%] before:bg-black before:w-10 before:h-[1px] ml-14;
@@ -20,4 +20,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #e4e8e7;
+}
+p {
+  line-height: 2.3;
 }

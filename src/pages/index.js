@@ -12,7 +12,7 @@ export default function Home() {
   }, []);
   return (
     <main>
-      <section className="bg-gradientCommon">
+      <section className="bg-gradientCommon ">
         {/* navbar  */}
         <div className="flex justify-between items-center w-full max-w-[1250px] mx-auto py-10 px-4">
           <h4 className="text-4xl font-bold">
@@ -89,7 +89,7 @@ export default function Home() {
           <div className="basis-full lg:basis-[50%] w-full  flex items-center relative justify-center lg:justify-end  min-h-[80vh] p-6">
             <div
               className={
-                "w-full sm:w-[400px] md:w-[500px] lg:w-[300px] min-h-[420px] relative rounded-full before:absolute before:contents-[''] before:w-[116%] before:h-[116%] before:border-2 before:p-4 before:rounded-full before:left-[-8%] before:top-[-8%] before:border-gray-700  after:hidden  lg:after:grid after:place-content-center  after:absolute after:left-[-15%] after:top-[-15%] after:bg-orange-300 after:p-16 after:text-sm   " +
+                "w-full max-w-[300px] relative rounded-full before:absolute before:contents-[''] before:w-[116%] before:h-[116%] before:border-2 before:p-4 before:rounded-full before:left-[-8%] before:top-[-8%] before:border-gray-700  after:hidden  lg:after:grid after:place-content-center  after:absolute after:left-[-15%] after:top-[-15%] after:bg-orange-300 after:p-16 after:text-sm   " +
                 `after:content-['${year}'] ${indexStyle.starOrange}`
               }
             >
@@ -121,6 +121,63 @@ export default function Home() {
             className=" hidden  lg:block absolute lg:right-[25%] scale-[0.8] xl:scale-1 top-[20%] xl:right-[30%]"
             alt=""
           />
+        </div>
+        <div className="max-w-[1250px] mx-auto py-10 md:py-15 lg:py-20 px-4">
+          <div className="grid grid-cols-12 gap-6">
+            <div className="col-span-12 md:col-span-12 lg:col-span-4 p-4">
+              <h4 className="text-3xl font-bold">Business Trends</h4>
+              <p className="pt-2 pb-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <div className="flex w-full">
+                <div>
+                  <img
+                    src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    className="w-14 h-14 rounded-full object-cover border-2 border-white mr-6 drop-shadow-xl"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h6 className="text-xl font-bold">Thomas Speark</h6>
+                  <p className="text-sm pt-1">Managing Partner</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-span-12 md:col-span-6 lg:col-span-4  py-5 pl-6 pr-0">
+              <div className="ring-2 ring-white p-5 py-7  bg-[#E9E8E7] rounded-lg shadow-xl shadow-slate-500/10 ">
+                <div className="flex justify-between pb-3">
+                  <span className="h-8 w-8 grid place-content-center bg-blue-200 rounded-full">
+                    <ion-icon name="stopwatch-outline"></ion-icon>
+                  </span>
+                  <p className="font-medium text-sm text-gray-500">May 2021</p>
+                </div>
+                <h4 className="text-xl font-semibold py-3">
+                  Visibility Booster
+                </h4>
+                <p className="text-sm leading-[2]">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-span-12 md:col-span-6 lg:col-span-4  py-5 pr-6 pl-0">
+              <div className="ring-2 ring-white p-5 py-7  bg-[#E9E8E7] rounded-lg shadow-xl shadow-slate-500/10 ">
+                <div className="flex justify-between pb-3">
+                  <span className="w-8 h-8 grid place-content-center bg-purple-300 rounded-full">
+                    <ion-icon
+                      name="happy-outline"
+                      className="ring-1 py-2"
+                    ></ion-icon>
+                  </span>
+                  <p className="font-medium text-sm text-gray-500">Aug 2021</p>
+                </div>
+                <h4 className="text-xl font-semibold py-3">Online Assistant</h4>
+                <p className="text-sm leading-[2]">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
